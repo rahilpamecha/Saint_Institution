@@ -1,0 +1,51 @@
+.menu_div 
+{
+    background:#0080ff;
+	width:1125px;
+    line-height:40px;
+    
+    
+}
+.menu_div ul
+{
+    padding:0px 0px 0px 5px;
+    margin-top:-4px;
+	 margin-left:-5px;
+    list-style:none;
+    font-family:Arial;
+    font-size:23px;
+    height:40px;
+	width:1125px;
+    line-height:40px;
+    background:#0080ff;
+    
+}
+.menu_div ul li
+{
+	background:#0080ff;
+    float:left;
+	height:40px;
+}
+.menu_div ul li a
+{
+	background:#0080ff;
+    color:#FFF;
+    text-decoration:none;
+	font-size:15px;
+    padding: 2px 15px 2px 20px;
+    
+	height:40px;
+}
+.menu_div ul li a:hover
+{
+   position:visible;
+    -webkit-transition: all 0.3s ease-in-out;
+	height:55px;
+    color:	#ff0040;
+   font-size:15px;
+}
+.menu_div ul li#active a
+{
+    color:#FFF;
+    background:#c80202;
+}
